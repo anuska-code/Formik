@@ -19,6 +19,7 @@ const Card = () => {
 
   if (isError) {
     console.log("Error while fetching data");
+    console.log("Error while fetching data");
     return <div>Error while fetching data</div>;
   }
 
